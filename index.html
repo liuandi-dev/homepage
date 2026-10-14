@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport：让手机上也能正常显示，不会缩成一小团 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy · AI 应用工程师养成中</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ① 头部：我是谁 -->
+  <header class="hero">
+    <div class="avatar">A</div>
+    <h1>Andy</h1>
+    <!-- TODO：把这句话换成你自己的版本 -->
+    <p class="tagline">软件工程大四 · 正在用 AI 做 100 个项目 · 目标：AI 应用工程师</p>
+    <div class="contact">
+      <a href="https://github.com/liuandi-dev" target="_blank">GitHub</a>
+      <!-- TODO：把下面的邮箱换成你的真实邮箱 -->
+      <a href="mailto:2665415045@qq.com">邮箱</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ② 挑战进度：天数由 script.js 自动计算，不用手动改 -->
+    <section>
+      <h2>🔥 100 项目挑战</h2>
+      <p class="section-desc">2026 年 10 月 13 日开始，毕业前用 AI 做完 100 个项目。</p>
+      <div class="stats">
+        <div class="stat">
+          <p class="num"><span id="days">--</span><small>天</small></p>
+          <p class="label">已坚持</p>
+        </div>
+        <div class="stat">
+          <p class="num"><span>1</span><small>个</small></p>
+          <p class="label">已完成项目</p>
+        </div>
+        <div class="stat">
+          <p class="num"><span id="remaining">--</span><small>个</small></p>
+          <p class="label">距离目标</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ③ 项目列表：每做完一个项目，复制一张卡片、改内容即可 -->
+    <section>
+      <h2>📦 项目</h2>
+      <div class="cards">
+        <a class="card" href="https://github.com/liuandi-dev/homepage" target="_blank">
+          <span class="card-no">#001</span>
+          <h3>开发环境 + 第一次提交</h3>
+          <p>装好 Git / Node.js / Python，跑通 clone → commit → push 完整循环</p>
+          <span class="tag done">✅ 完成</span>
+        </a>
+        <div class="card">
+          <span class="card-no">#002</span>
+          <h3>个人主页（就是你看到的这页）</h3>
+          <p>纯 HTML / CSS / JS，与 AI 协作完成，部署在 GitHub Pages</p>
+          <span class="tag doing">🚧 进行中</span>
+        </div>
+        <div class="card placeholder">
+          <span class="card-no">#003</span>
+          <h3>？？？</h3>
+          <p>明天揭晓</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ④ 技能清单：学会了就把它变黑，还在学就保留 learning 样式 -->
+    <section>
+      <h2>🛠 技能</h2>
+      <ul class="skills">
+        <li>HTML / CSS</li>
+        <li>Git / GitHub</li>
+        <li>Python</li>
+        <li class="learning">JavaScript · 学习中</li>
+        <li class="learning">大模型 API 开发 · 即将开始</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>由 Andy 与 AI 协作完成 · 2026 年 10 月启程</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
