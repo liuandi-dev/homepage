@@ -3,7 +3,7 @@
 
 const START_DATE = new Date(2026, 9, 13); // 挑战开始日：2026-10-13（月份从 0 数，9 = 十月）
 const GOAL = 100;                         // 目标项目数
-const DONE = 4;                           // 已完成项目数（每做完一个就 +1）
+const DONE = 5;                           // 已完成项目数（每做完一个就 +1）
 
 // 计算从开始日到今天过了几天（+1 是因为第一天算 1 天而不是 0 天）
 const days = Math.floor((Date.now() - START_DATE.getTime()) / 86400000) + 1;
